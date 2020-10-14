@@ -347,4 +347,179 @@
   [hidden] {
     display: none;
   }
+/*   
+  _____________________________________________________________________________________________________________
+                                               HEADER Maud Dark Cream color : #f2ebe8  saumon: #d99578
+  /* ____________________________________________________________________________________________________________  */
+
+  @font-face
+  {
+    font-family: "Muli";
+    src: url("assets/muli/Muli.ttf");
+  }
+  @font-face
+  {
+    font-family: "Prata";
+    src: url("assets/Prata/Prata-Regular.ttf")
+  }
+  p
+  {
+    font-size: 16px; 
+  }
+
+  button
+  {
+    background-color :  #302e2f;
+    border : none;
+    border-radius: 5px;
+  }
+  .navbar 
+  {
+    background-color: #302e2f;
+    color: #f2ebe8; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: "Muli";
+    
+  }
+
+  .navbar >*
+  {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+  .navbar__information__time
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  
+  .navbar__information
+  {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .navbar__information__time__clock
+  {
+    color: #6e6c6d
+  }
+  
+  .navbar__information__time__map
+  {
+    color: #6e6c6d;
+   
+  }
+  .navbar__infos 
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+
+  .navbar__infos__medias
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .navbar__infos__buttons
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .fa, .far, .fas
+  {
+    font-size: 20px;
+    color:  #6e6c6d; 
+    padding-right: 1rem;
+  }
+  .fa-minus
+  {
+    color: #d99578;
+    font-size: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .fa-clock-o, .fa-map
+  {
+    color: #d99578;
+  }
+  .fa-shopping-cart
+  {
+    color: #f2ebe8; 
+  }
+  .fa-align-left
+  {
+    color: #d99578;
+  }
+  .fa-chevron-down
+  {
+    font-size: 14px;
+    margin-left: 5px;
+    margin-top: 3px;
+  }
+  .fa-search
+  {
+    margin-top: 2px;
+    margin-bottom: 10px;
+  }
+  .navbar__infos__buttons__search
+  {
+    border: 1px solid #6e6c6d;; 
+    margin-right: 1rem;
+    padding-right: 2rem;
+    width: 30px;
+    height: 30px;
+    padding-top: 3px;
+  }
+  .navbar__infos__buttons__language
+  {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #6e6c6d; 
+    color:#6e6c6d;
+    width: 4rem;
+    height: 2rem;
+    padding-top: 5px;
+  }
+
+  .navbar__infos__buttons__ticket
+  {
+    color:#f2ebe8;
+    font-weight: bold; 
+    background-color:#d99578;
+    margin-left: 1rem;
+  }
+
+  
+  .navbar__menu
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #6e6c6d;;
+  }
+  .navbar__menu__logo
+  {
+    padding-right: 1rem;
+    border-right: 1px solid #6e6c6d;;
+  }
+  .navbar__menu__buttons__buttons
+  {
+    color: #f2ebe8; 
+    font-size: 18px;
+    font-weight: bold;
+  }
+ 
   
