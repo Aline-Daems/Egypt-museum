@@ -943,6 +943,63 @@
   left: 50;
 }
 
+.home_events_clock1, .home_events_clock2, .home_events_clock3
+{
+  color:#d99578;
+  background-color: white;
+  border: 4px solid white;
+  border-radius: 100%;
+  width: 1rem;
+  height: 1rem;
+  position: absolute;
+ 
+}
+.home_events_clock1
+{
+  z-index: 8;
+  margin-top: 13.5%;
+  left: 50;
+}
+.home_events_clock2
+{
+  z-index: 9;
+  margin-top: 30.5%;
+  left: 50;
+}
+
+.home_events_clock3
+{
+  z-index: 10;
+  margin-top: 46.5%;
+  left: 50;
+} 
+.home__events__schedule1, .home__events__schedule2, .home__events__schedule3
+{
+  color:#d99578;
+  background-color: white;
+  position: absolute;
+  border: 2px solid white;
+}
+
+.home__events__schedule1
+{
+  z-index: 7;
+  margin-top: 14%;
+  left: 50; 
+}
+.home__events__schedule2
+{
+  z-index: 7;
+  margin-top: 31%;
+  left: 50; 
+}
+
+.home__events__schedule3
+{
+  z-index: 7;
+  margin-top: 47%;
+  left: 50; 
+} 
 
 
     /*__________________________Home members_______________________________________*/
