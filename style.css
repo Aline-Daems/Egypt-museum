@@ -350,23 +350,196 @@
   
 
 
+a {
+
+  text-decoration: none;
+}
 
 
 
+/* #### CONTACT #### */
 
-/* #### CONTACT US #### */
+.contact__CONTAINER {
 
-
-
-
-
-
-
-
-
-
+  display: flex;
+  font-family: 'Prata', serif;
+  margin-top: 150px;
+  justify-content: center;
+  
+}
 
 
+.contact__PICTURE {
+
+  background-image: url("CONTACT/contact-1-1.jpg");
+  background-repeat: no-repeat;
+  width: 550px;
+  height: 350px;
+
+}
+
+
+label {
+
+  margin-left:25px;
+  color:#302e2f;
+  font-size: 0.8em;
+}
+
+
+.contact__FORM {
+
+  display: flex;
+  width: 600px;
+  flex-wrap: wrap;
+  margin-left: 25px;
+
+
+}
+.contact__INPUT, .contact__INPUTSUBJECT, .contact__INPUTMESSAGE  {
+
+  border: 1px solid rgba (0,0,0,0.5);
+  margin-left: 25px;
+  margin-bottom: 25px;
+  height: 50px;
+
+}
+
+.contact__INPUTSUBJECT {
+
+  width: 520px;
+}
+
+.contact__INPUTMESSAGE {
+
+  height: 150px;
+  width: 530px;
+}
+
+
+.contact__SENDBUTTON {
+
+  height: 50px;
+  width: 200px; 
+  background-color: #302e2f;
+  color: white;
+  text-align:center;
+  border: 0px solid black;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  margin-left: 929px;
+  display: flex;
+ 
+
+}
+
+.contact__TEXTBUTTON {
+
+  margin: auto;
+  text-decoration: none;
+  color: white;
+}
+
+.contact__ADDRESSHOURS{
+
+  display:flex;
+  flex-wrap: nowrap;
+
+}
+
+.contact__ADDRESS{
+
+  display: flex;
+  justify-content: center;
+  width: 280px;
+  flex-wrap: wrap;
+  margin-top: -150px;
+  margin-left: 330px;
+  flex-direction: column;
+  border-right: 1px solid rgba(0,0,0,0.1);
+  
+  
+
+}
+
+.contact__ADDRESS1{
+
+  font-size: 1.2em;
+  color:#302e2f;
+  margin-top: -7px;
+  font-family: 'Prata', serif;
+
+
+}
+
+
+.contact__ADDRESS2, .contact__ADDRESS3, .contact__ADDRESS4 {
+
+  color:#878282;
+  font-size: 1em;
+  margin-top: 15px;
+  font-family: 'muli';
+
+}
+
+
+.contact__ADDRESS3, .contact__ADDRESS4 {
+
+  margin-top: -1px;
+}
+
+
+
+.contact__HOURS {
+
+  margin-top: -150px;
+  color: #878282;
+  margin-left: 25px;
+  font-size: 0.9em;
+  display: flex;
+  flex-direction: column;
+  font-family: 'muli';
+ 
+
+
+
+}
+
+.contact__DARKGREY {
+
+  color:#302e2f;
+  margin-left: 15px;
+  font-size: 0.9em;
+  margin-right: 15px;
+
+}
+
+
+.contact__DARKGREY4 {
+
+
+  color:#302e2f;
+  margin-left: 15px;
+  font-size: 0.9em;
+  margin-right: 50px;
+
+}
+
+.contact__HOURS1 {
+
+  margin-top: 2px;
+}
+
+.contact__HOURS2, .contact__HOURS3 {
+
+  margin-top: 15px;
+}
+
+.contact__HOURS4{
+
+  margin-top: 10px;
+}
 
   /* #### FOOTER #### */
 
@@ -386,7 +559,7 @@
 
     background-image: url("FOOTER/footer-bg-1-1.jpg");
     width: 100%;
-    height: 600px;
+    height: 500px;
     flex: 1;
 
 
@@ -399,10 +572,10 @@
     background-image: url("FOOTER/footer-logo-1-1.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 150px;
+    background-size: 170px;
     width: 100%;
     height: 100%;
-    margin-bottom: 15px;
+    margin-bottom: 65px;
   
 
   }
@@ -410,10 +583,13 @@
 .footer__MAIL {
 
     font-size: 1.5em;
-    width: 35px;    
-    height: 32px;
+    width: 55px;    
+    height: 52px;
     background-color: #f66c6c;
-    padding: 10px
+    /* padding: 10px; */
+    display: flex;
+
+    
 
 }
 
@@ -443,6 +619,7 @@
     border: 0px solid black;
     padding-left: 30px;
     margin-bottom: 15px;
+    margin-left: -25px;
     
 }
 
@@ -478,3 +655,11 @@
 
     color: #f66c6c;
   }
+
+@font-face{
+
+  font-family: 'muli';
+  src: url("muli/Muli-Regular.ttf")
+
+}
+
