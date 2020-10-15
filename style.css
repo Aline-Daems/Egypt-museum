@@ -790,8 +790,160 @@
    
    
    /*__________________________Home exhibitions_______________________________________*/
-  .home_events
-    {}
+  .home__events__body 
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    
+  }
+  .home__events__left
+  {
+    background-image: url("assets/home/event-bg-1-1.jpg");
+    width: 50%;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    position : absolute;;
+    left: 0;
+    z-index: 1;
+  }
+  .home__events__left >*
+  {
+    margin-left: 20%;
+    
+  }
+  .home__events__left p, a
+  {
+   
+    font-weight: 50;
+    font-size: 14px;
+    color:#999898;
+    text-decoration: none;
+  }
+  .home__events__left .h2
+  {
+    color: #424041;
+    font-size: 50px;
+    font-weight: 50;
+    font-family: "Prata";
+  }
+  
+  .home__events__align >*
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .home__events__left__plus
+  {
+    margin-top: 5rem;
+  }
+  .home__events__button
+  {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 0px;
+    text-align: left;
+    color: #424041;
+    font-size: 25px;
+    margin-top: 10px;
+    width: 20rem;
+    text-decoration: none;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+  }
+  .home__events__button:hover
+  {
+    background-color:  #d99578;
+    color: white;
+  }
+  .line2
+  {
+    border-top: 1px solid #d99578;
+    margin-left:20%;
+    margin-top:15%;
+    width: 6rem;
+  }
+  .fa-angle-right
+  {
+    color: black; 
+  }
+  .fa-angle-right:hover
+  {
+    background-color:  #d99578;
+    color: white;
+  }
+  
+  .home__events__right
+  {
+    background-color: #f2ebe8;
+    width: 50%;
+    height: 55rem; 
+    position: absolute;
+    top: 50;
+    right: 0;
+    z-index: 1;
+  }
+  .home__events__right__container
+  {
+    margin-top: 8%;
+  }
+  .home__events__right__container > div
+  {
+    margin-left: 40%;
+    margin-top: 10%;
+  }
+  .home__events__right p span
+  {
+    font-family: "Prata";
+    font-size: 50px;
+    color:#d99578;
+    float: left;
+   
+  
+  }
+  .home__events__right p
+  {
+    color: #999898;
+    font-family: "Prata";
+    font-weight: 50;
+   
+  }
+
+  .home__events__right .h3
+  {
+    color: #424041;
+    font-size: 25px;
+  }
+  .home__events__image1
+ {
+   margin-top: 5%;
+   position: absolute;
+   z-index: 4;
+   left: 50;
+  
+ }
+ .home__events__image2
+{
+  margin-top: 22%;
+  position: absolute;
+  z-index: 5;
+  left: 50
+  
+}
+.home__events__image3
+{
+  margin-top: 38%;
+  position: absolute;
+  z-index: 6;
+  left: 50;
+}
+
+
 
     /*__________________________Home members_______________________________________*/
   .home_member
