@@ -357,34 +357,33 @@ a {
 
 
 
-/* #### CONTACT #### */
+                                                            /* #### CONTACT #### */
 
-.contact__CONTAINER {
+.contact__CONTAINERPIC {
 
   display: flex;
   font-family: 'Prata', serif;
   margin-top: 150px;
   justify-content: center;
-  
+  width: 100%;
+
 }
 
+
+/* MAIN IMAGE */
 
 .contact__PICTURE {
 
   background-image: url("CONTACT/contact-1-1.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   width: 550px;
   height: 350px;
 
+
 }
 
-
-label {
-
-  margin-left:25px;
-  color:#302e2f;
-  font-size: 0.8em;
-}
+/* FORM */
 
 
 .contact__FORM {
@@ -392,30 +391,54 @@ label {
   display: flex;
   width: 600px;
   flex-wrap: wrap;
-  margin-left: 25px;
-
+  
+  
 
 }
+
+
+
+label {
+
+  margin-left:25px;
+  color:#302e2f;
+  font-size: 0.8em;
+  width: 250px;
+}
+
+
+/* .contact__FIRST {
+
+  width: 900px;
+} */
+
+
+ /* FORM SUBJECT AND MESSAGE  */
+
 .contact__INPUT, .contact__INPUTSUBJECT, .contact__INPUTMESSAGE  {
 
-  border: 1px solid rgba (0,0,0,0.5);
+
   margin-left: 25px;
   margin-bottom: 25px;
-  height: 50px;
+  height: 35px;
+  width: 250px;
 
 }
+
 
 .contact__INPUTSUBJECT {
 
-  width: 520px;
+  width: 540px;
 }
 
 .contact__INPUTMESSAGE {
 
   height: 150px;
-  width: 530px;
+  width: 550px;
 }
 
+
+/* BUTTON SEND MESSAGE */
 
 .contact__SENDBUTTON {
 
@@ -427,13 +450,16 @@ label {
   border: 0px solid black;
   border-radius: 5px;
   text-transform: uppercase;
-  font-size: 0.8em;
-  margin-left: 929px;
+  font-size: 0.9em;
+  margin-left: 22px;
+  margin-top: 50px;
   display: flex;
+  font-family: muli;
  
 
 }
-
+ /* TEXT BUTTON SEND MESSAGE */
+ 
 .contact__TEXTBUTTON {
 
   margin: auto;
@@ -441,33 +467,39 @@ label {
   color: white;
 }
 
+/* ADDRESS AND HOURS */
+
 .contact__ADDRESSHOURS{
 
   display:flex;
   flex-wrap: nowrap;
+  width: 650px;
+  margin-top: -100px;
+  justify-content: center;
+  margin-left: 278px;
+  margin-bottom: 150px;
 
 }
+
+/* ADRESS BOX */
 
 .contact__ADDRESS{
 
   display: flex;
-  justify-content: center;
   width: 280px;
   flex-wrap: wrap;
-  margin-top: -150px;
-  margin-left: 330px;
   flex-direction: column;
-  border-right: 1px solid rgba(0,0,0,0.1);
-  
-  
+  border-right: 1px solid rgba(0,0,0,0.1); 
 
 }
+
+/* UNITED KINGDON */
 
 .contact__ADDRESS1{
 
   font-size: 1.2em;
   color:#302e2f;
-  margin-top: -7px;
+  margin-top: -35px;
   font-family: 'Prata', serif;
 
 
@@ -478,22 +510,14 @@ label {
 
   color:#878282;
   font-size: 1em;
-  margin-top: 15px;
   font-family: 'muli';
 
 }
 
-
-.contact__ADDRESS3, .contact__ADDRESS4 {
-
-  margin-top: -1px;
-}
-
-
+/* HOURS BOX */
 
 .contact__HOURS {
 
-  margin-top: -150px;
   color: #878282;
   margin-left: 25px;
   font-size: 0.9em;
@@ -501,10 +525,9 @@ label {
   flex-direction: column;
   font-family: 'muli';
  
-
-
-
 }
+
+ /* DAYS */
 
 .contact__DARKGREY {
 
@@ -512,9 +535,10 @@ label {
   margin-left: 15px;
   font-size: 0.9em;
   margin-right: 15px;
-
+  
 }
 
+/* FRIDAY DRAK GREY */
 
 .contact__DARKGREY4 {
 
@@ -526,19 +550,272 @@ label {
 
 }
 
+/* HOURS MONDAY TUESDAY DARK GREY */
+
 .contact__HOURS1 {
 
-  margin-top: 2px;
+  display:flex;
+  flex-wrap: nowrap;
+  font-size: 1em;
+
+ 
 }
+ /* HOURS Wednesday thrueday DARK GREY */
 
 .contact__HOURS2, .contact__HOURS3 {
 
-  margin-top: 15px;
+  
+  display:flex;
+  flex-wrap: nowrap;
+  font-size: 1em;
 }
+
+/*  HOURS FRIDAY */
 
 .contact__HOURS4{
 
-  margin-top: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 1em;
+}
+
+
+/* hours  IN LIGHT GREY */
+.contact__MOTU ,.contact__WETH, .contact__SASU, .contact__FR{
+
+  margin-left: 15px;
+  font-size: 1em;
+  
+
+}
+
+/* MAP */
+
+.contact__MAP {
+
+  display: flex;
+  justify-content: center;
+}
+
+/* VENUES */
+
+.contact__VENUES {
+
+
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  font-family: Prata, sans-serif;
+  height: 500px;
+  
+}
+
+/* OTHER VENUE TITLE */
+
+.contact__OTHERS {
+
+  height: 50px;
+  text-align: center;
+  margin-top: 50px;
+  font-size: 2em;
+
+}
+
+/* LOGO   */
+
+.contact__LOGO {
+
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+/* LOGO CONTAINER */
+
+.contact__LOGOCONTAINER{
+
+  margin-right: 25px;
+  width:500px;
+  text-align: center;
+  border-right: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 65px;
+  color: #878282;
+  font-family: muli, sans-serif;
+  
+  
+}
+
+/* LOGO ITEMS */
+
+.contact__LOGO1 {
+
+  background-image: url("CONTACT/venue-1-1.png");
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  background-repeat: no-repeat;
+  margin: auto;
+ 
+}
+
+.contact__LOGO2 {
+
+  background-image: url("CONTACT/venue-1-2.png");
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+.contact__LOGO3 {
+
+  background-image: url("CONTACT/venue-1-3.png");
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+/* LOGO CONTAINER HIDDEN */
+
+.contact__LOGOCONTAINER4{
+
+  visibility: collapse;
+}
+
+.contact__LOGO4 {
+
+  background-image: url("CONTACT/venue-1-4.png");
+  background-position: center;
+  height: 150px;
+  width: 250px;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+/* TEXT ADDRESS OTHERS VENUES */
+/* 
+CONTINENT IN DARK GREY */
+
+.contact__CONTINENT {
+
+  color:#302e2f;
+  font-family: Prata, sans-serif;
+}
+
+
+/* ARROW */
+
+.contact__ARROW{
+
+height: 50px;
+width: 100px;
+background-color: #fff; 
+border: 1px solid rgba(0,0,0,0.1);
+border-radius: 5px;
+margin: auto;
+
+}
+
+
+.contact__BALISE {
+
+  color: #302e2f;
+  text-align: center;
+  font-weight: bolder;
+
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .contact__CONTAINER {
+    flex-direction: column;
+    
+
+
+  }
+
+
+
+.contact__FORM {
+
+   flex-direction: column;
+  } 
+
+.contact__CONTAINERPIC{
+
+  flex-direction: column;
+}
+
+  .contact__PICTURE{
+
+    background-position: left;
+    background-size: 550px;;
+    margin-left: 50px;
+  
+  
+  }
+
+  .contact__FORM {
+
+    margin-top: 500px;
+    margin-left: 50px;
+  }
+
+  .contact__INPUT {
+
+    width: 500px;
+  }
+
+ .contact__INPUTSUBJECT {
+
+    width: 500px;
+  }
+
+  .contact__INPUTMESSAGE {
+
+    width: 510px;
+  }
+
+.contact__ADDRESSHOURS {
+
+  display: flex;
+  flex-wrap: nowrap;
+  width: 650px;
+  margin-top: -1100px;
+  justify-content: center;
+  margin-left: -2px;
+  margin-bottom: 150px;
+}
+.contact__MAP {
+
+  margin-top: 1100px;
+}
+
+.contact__ARROW {
+
+  display: none;
+}
+
+.contact__LOGO {
+flex-wrap: wrap;
+justify-content: center;
+width: 80%;
+}
+footer {
+
+  align-items: flex-end;
+}
+
+.contact__LOGOCONTAINER {
+
+  width: 250px;
+}
+
 }
 
   /* #### FOOTER #### */
@@ -656,10 +933,10 @@ label {
     color: #f66c6c;
   }
 
-@font-face{
+@font-face {
 
   font-family: 'muli';
-  src: url("muli/Muli-Regular.ttf")
+  src: url("muli/Muli-Regular.ttf");
 
 }
 
