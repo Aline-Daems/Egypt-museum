@@ -716,7 +716,27 @@
     margin-left: -50rem;
   }
   
+/* MAIL FORM */
 
+.footer__MAIL {
+
+    font-size: 1.5em;
+    width: 55px;    
+    height: 52px;
+    background-color: #f66c6c;
+    display: flex;
+
+    
+
+}
+
+/* MAIL ICON */
+
+.footer__mailICON {
+
+    color: white; 
+    margin: auto;
+}
   .home_history_about_p
   {
     border-top: 1px solid #d99578;
@@ -934,6 +954,13 @@
   {
     display: flex;
     flex-direction: row;
+}
+/* 
+SOCIAL MEDIAS */
+
+  .footer__socialMedias {
+    margin-top: 15px;
+    text-align: center;
     justify-content: center;
     flex-wrap: wrap; 
   }
