@@ -359,6 +359,9 @@ a {
 
                                                             /* #### CONTACT #### */
 
+                                                            
+
+/* MAIN CONTAINER */
 .contact__CONTAINERPIC {
 
   display: flex;
@@ -396,6 +399,7 @@ a {
 
 }
 
+/* FIRST NAME, LAST NAME, PHONE, EMAIL */
 
 
 label {
@@ -406,11 +410,6 @@ label {
   width: 250px;
 }
 
-
-/* .contact__FIRST {
-
-  width: 900px;
-} */
 
 
  /* FORM SUBJECT AND MESSAGE  */
@@ -468,6 +467,8 @@ label {
 }
 
 /* ADDRESS AND HOURS */
+
+/* MAIN CONTAINER OF ADDRESS AND HOURS  */
 
 .contact__ADDRESSHOURS{
 
@@ -746,18 +747,20 @@ margin: auto;
     
   }
 
+  /* DARK BACKGROUND */
+
  .footer__BACKGROUND {
 
     background-image: url("FOOTER/footer-bg-1-1.jpg");
     width: 100%;
     height: 500px;
     flex: 1;
-
-
-  
-  
     
   }
+
+  /* ICON FOOTER */
+
+
   .footer__ICON {
 
     background-image: url("FOOTER/footer-logo-1-1.png");
@@ -771,18 +774,21 @@ margin: auto;
 
   }
 
+/* MAIL FORM */
+
 .footer__MAIL {
 
     font-size: 1.5em;
     width: 55px;    
     height: 52px;
     background-color: #f66c6c;
-    /* padding: 10px; */
     display: flex;
 
     
 
 }
+
+/* MAIL ICON */
 
 .footer__mailICON {
 
@@ -813,6 +819,8 @@ margin: auto;
     margin-left: -25px;
     
 }
+/* 
+SOCIAL MEDIAS */
 
   .footer__socialMedias {
     margin-top: 15px;
