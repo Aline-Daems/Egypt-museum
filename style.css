@@ -806,7 +806,7 @@
     height: 55rem;
     display: flex;
     flex-direction: column;
-    position : absolute;;
+    position : relative;
     left: 0;
     z-index: 1;
   }
@@ -883,7 +883,7 @@
     background-color: #f2ebe8;
     width: 50%;
     height: 55rem; 
-    position: absolute;
+    position: relative;
     top: 50;
     right: 0;
     z-index: 1;
@@ -1003,10 +1003,80 @@
 
 
     /*__________________________Home members_______________________________________*/
-  .home_member
-   {}
+  .home__section
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .home__section__member
+  {
+    background-image: url("assets/home/video-bg-2.jpg");
+    width: 100%;
+    height: 55rem;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index:1
+  }
+
+  .home__section__member__right
+  {
+    margin-left: 60%;
+    margin-top: 10%;
+  }
+  .home__section__member p
+  {
+    font-size: 30px;
+    color: white;
+  }
+ 
+  .home__section__member ul
+  {
+    list-style-type: none;
+  }
+  .home__section__member li
+  {
+    font-size: 20px;
+    color: white;
+    font-family: "Muli";
+  }
+  .home__section__member .h2
+  {
+    color: white;
+    font-size: 50px;
+    font-weight: 50;
+    font-family: "Prata";
+  }
+  .home__section__member button
+  {
+    background-color: white; 
+    font-size: 12px;
+     padding: 1rem;
+     padding-left: 2rem;
+     padding-right: 2rem;
+     color: #6e6c6d;
+     margin-left: 15%;
+     margin-top: 10%;
+     width: 15rem
+  }
+  .fa-check-circle-o
+  {
+    color: white;
+
+  }
+  /*__________________________Home collection_______________________________________*/
   .home_collection
-   {}
+
+   {
+     display: grid;
+     grid-template-areas:
+     "Catherine Alex Lascaux"
+     "Soldiers Alex Mare"
+     "Soldiers Babel Babel"
+   }
+
+
+   /*__________________________Home numbers_______________________________________*/
   .home_numbers
    {}
   .home_opinion
