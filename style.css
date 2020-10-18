@@ -1012,7 +1012,7 @@
   {
     background-image: url("assets/home/video-bg-2.jpg");
     width: 100%;
-    height: 45rem;
+    height: 35rem;
     display: flex;
     flex-direction: row;
     position: relative;
@@ -1022,7 +1022,7 @@
   .home__section__member__right
   {
     margin-left: 60%;
-    margin-top: 10%;
+    margin-top: 5%;
   }
   .home__section__member p
   {
@@ -1067,18 +1067,34 @@
   .home__section__video
   {
     position: absolute; 
-    width: 40rem;
-    height: 30rem;
-    margin-top: 30rem;
-    margin-left: 10%;
+    width: 50rem;
+    height: 40rem;
+    margin-top: 3rem;
+    margin-left: 5%;
     z-index: 2;
   }
   /*__________________________Home collection_______________________________________*/
+  .home__collection
+  {
+    padding-top: 10rem;
+    
+  }
+  .home__collection .line--4
+  {
+    width: 6rem;
+    margin-left: 45%;
+  }
+  .home__collection .home__collection__view
+  {
+    margin-left: 45%;
+    margin-bottom: 0rem;
+  }
   .home__collection .h2
   {
     font-family: "Prata";
     font-size: 40px;
     text-align: center;
+    margin-top: 2rem;
   }
 
   .grid-container
@@ -1096,7 +1112,7 @@
      gap: 2rem;
      column-gap: 1rem;
      row-gap: 5rem;
-     margin-top: 10%;
+     margin-top: 3rem;
      margin-bottom: 5%; 
      margin-left: 15%;
    }
@@ -1291,7 +1307,215 @@
     margin-top: 0rem;
    }
 
-  .home_opinion
-   {}
-  .home_blog
-    {}
+     /*__
+   ________________________Home opinion_______________________________________*/
+  .home__opinion
+   {
+     height: 45rem;
+     background-image: url("assets/home/testi-1-1-bg.jpg");
+     background-repeat: no-repeat;
+     margin-top: -5rem;
+   }
+   .home__opinion__circle
+   {
+     position: absolute;
+     margin-left: 45%;
+     margin-top: 5.2%;
+     width: 120px;
+    
+   }
+   .home__opinion__girl
+   {
+     border-radius: 50%;
+     position: absolute;
+     margin-left: 46%;
+     margin-top: 6%;
+   }
+  .bubble__text
+  {
+    background: white; 
+    padding:7px 15px; 
+    border-radius:3px; 
+    width:150px;
+    position: absolute;
+    margin-left: 43%;
+    margin-top: 15%; 
+    line-height: 5px;
+    text-align: center;
+    
+  }
+  
+  .bubble__text::after{
+  content:""; 
+  border-left:20px solid transparent;
+  border-right:20px solid transparent;
+  border-top: 20px solid white;
+  position: absolute;
+  }
+ .bubble__name
+ {
+  font-size: 20px;
+  font-family: "Prata"
+ }
+  .bubble__rose 
+  {
+    color: #d99578;
+  }
+  .home__opinion__text
+  {
+    padding-top: 25%;
+    font-size: 20px;
+    font-family: "Prata";
+    text-align: center;
+    line-height: 2.5rem;;
+  }
+  .line--4
+  {
+    
+    width: 4rem;
+    border-top: 3px solid #d99578;
+    margin-top: 5%;
+    margin-left: 45%;
+  }
+  .dot {
+    height: 8px;
+    width: 8px;
+    background-color:#c1bcb9;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 3px;
+  }
+  .dot-page
+  {
+   
+    margin-top: -1.02rem;
+    margin-left: 50%;
+  }
+ .dot-page >*
+ {
+  display: inline-block;
+ }
+  
+  /*__
+   ________________________Home blog_______________________________________*/
+  .home__blog
+  {
+    margin-top: -4rem;
+    background-color: #f2f2f2;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: 70rem;
+  }
+  .home__blog .line--4
+  {
+    margin-top: 5rem;
+    margin-left: 45%;
+    width: 5rem;
+  }
+  .home__blog .h2
+{
+  font-family: "Prata";
+  font-size: 40px;
+  text-align: center;
+  margin-top: 0rem;
+  color: #302e2f;
+}
+.home__blog .home__collection__view
+{
+  margin-left: 45%;
+}
+  .home__blog__release
+  {
+    height: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #999898;
+    font-size: 15px;
+    
+  }
+  .home__blog__release__second >*
+  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .blog__release__end 
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .blog__release__end .home__collection__view
+  {
+    margin-left: 0px;
+  }
+  .home__collection__p .marge
+  {
+    margin-top: -10rem;
+  }
+  .home__blog__dialogue__first
+  {
+    
+    color: white;
+    background-color: #d99578;
+    padding-bottom: 0rem;
+    padding-top: 2rem;
+    margin-bottom: 5rem;
+    margin-top: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    line-height: 2rem;
+    
+  }
+  .home__blog__dialogue__first .dialogue
+  {
+    font-family: "Prata";
+    font-size: 20px;
+    text-align: center;
+  }
+  .home__blog__dialogue__first .home__collection__view
+  {
+    color: white;
+    text-align: center;
+    margin-left: 9rem;
+  }
+  .quotation-mark
+  {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 20rem;
+   
+  }
+.blog__release, .blog_release__date
+{
+  color:  #c1bcb9;
+  font-size: 14px;
+}
+.blog__release__line
+{
+  font-family:"Prata";
+  font-size: 20px;
+  color:#302e2f;
+}
+.home__blog__release .line
+{
+  color: #999898;
+  margin-left: 0rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.home__blog__release__background
+{
+  background-color: white;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+ 
+ 
+ 
