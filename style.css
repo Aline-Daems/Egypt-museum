@@ -540,7 +540,7 @@
   {
     display: none;
   }
-  @media screen and (max-width: 600px)
+  @media screen and (max-width: 800px)
   {
     .navbar__menu .icon
     {
@@ -647,7 +647,7 @@
      padding-top: 25%;
      line-height: 5px; 
    }
-   @media screen and (max-width: 414px)
+   @media screen and (max-width: 600px)
    {
     .home_museum
     {
@@ -662,7 +662,21 @@
      margin-top: -1rem;
     }
    }
-   
+   @media screen and (max-width:800px)
+   {
+    .home_museum
+    {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+      width: 100%;
+    }
+    .home_museum > .home_museum_text h1, .home_museum_text p
+    {
+     line-height: 60px; 
+     margin-top: -1rem;
+    }
+   }
 
    /*_____________________Home history____________________________________________*/
 
@@ -804,7 +818,7 @@
   {
     .home_history_images 
     {
-      margin-left: -12rem;
+      margin-left: -10rem;
       margin-top: 0rem;
       margin-bottom: -10rem;
     }
@@ -816,7 +830,7 @@
     .home_history_images_cadre
     {
       margin-left: 0;
-      margin-top: 87rem;
+      margin-top: 93rem;
     }
     .home_history 
     {
@@ -826,10 +840,47 @@
       margin-right: 1rem;
       
     }
-  
+    .home_history_images1
+    {
+      margin-left: 20rem;
+    }
     .home_history_about
   {
     margin-left: 0rem; 
+  }
+  }
+
+  @media screen and (max-width: 800px)
+  {
+    .home_history_images 
+    {
+      margin-left: -10rem;
+      margin-top: 0rem;
+      margin-bottom: -5rem;
+    }
+   
+    .home_history_images_cadre
+    {
+      margin-left: -6rem;
+      margin-top: 75rem;
+    }
+    .home_history 
+    {
+      display: flex;
+      flex-direction: column;
+      margin-left: 1rem;
+      margin-right: 1rem;
+      
+    }
+    .home_history_images1
+    {
+      margin-left: 20rem;
+    }
+    .home_history_about
+  {
+    margin-left: 0rem; 
+    font-size: 100%;
+    width:80rem;
   }
   }
   /*__________________________Home exhibitions_______________________________________*/
@@ -928,6 +979,26 @@
     }
    }
    
+   @media screen and (max-width: 800px)
+   {
+    .home_exhibitions_align
+    {
+     margin-left: 1rem;
+     margin-right: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+    }
+    .home_exhibitions_images1, .home_exhibitions_images2, .home_exhibitions_images3
+    {
+      width: 50rem;
+      height: 25rem;
+    }
+    .home_exhibitions .line
+    {
+      margin-left: 8rem;
+    }
+   }
    
    /*__________________________Home event_______________________________________*/
   .home__events__body 
@@ -1237,6 +1308,108 @@
       margin-left: 8.3rem;
     }
   }
+
+  @media screen and (max-width: 800px)
+  {
+    .home__events__body
+    {
+      margin-bottom: -73rem;
+    }
+    .home__events__right
+    {
+      background-image: url("assets/home/event-bg-1-1.jpg");
+      width: 100%;
+      padding-top: 5rem;
+      margin-right: 1rem;
+    }
+    .home__events__left >*
+    {
+      margin-left: 0rem;
+    }
+    .home__events__left, .home__events__right  
+    {
+      width: 100%;
+    }
+    .home__events__right__container
+    {
+      background-size: 10rem;
+      background-color:  #f2ebe8;
+      margin-left: 15rem;
+    }
+    .home__events__image1, .home__events__image2, .home__events__image3
+    {
+      position: relative;
+      width: 10rem;
+      height: 10rem;
+    }
+    .home__events__thursday
+    {
+      padding-top: 5rem;
+    }
+    .home__events__image1
+    {
+      margin-left: 8rem; 
+      top: -50rem;
+    }
+    .home__events__wednesday
+    {
+      padding-top: 10rem;
+    }
+    .home__events__image2
+    {
+      margin-left: 8rem;
+      top: -43rem;
+    }
+    .home__events__saturday
+    {
+      margin-left:5rem;
+      padding-top: 10rem;
+      
+    }
+    .home__events__image3
+    {
+      margin-left: 8rem;
+      top: -50rem;
+    }
+   
+    .home__events__body 
+    {
+      flex-direction: column;
+      margin-left:1rem;
+      margin-right: 1rem; 
+    }
+    .home__events__schedule1
+    {
+      margin-top: -34rem;
+      margin-left: 11rem;
+    }
+    .home_events_clock1
+    {
+      margin-top: -37rem;
+      margin-left: 13rem;
+    }
+    .home__events__schedule2
+    {
+      margin-top: 20rem;
+      margin-left: 11rem;
+    }
+    .home_events_clock2
+    {
+      margin-top: 17rem;
+      margin-left: 13rem;
+    }
+    .home__events__schedule3
+    {
+      margin-top: 70rem;
+      margin-left: 11rem;
+    }
+    .home_events_clock3
+    {
+      margin-top: 67rem;
+      margin-left: 13rem;
+    }
+    
+  }
    
 
     /*__________________________Home members_______________________________________*/
@@ -1313,7 +1486,7 @@
     margin-left: 5%;
     z-index: 2;
   }
-  @media screen and (max-width: 600px)
+  @media screen and (max-width: 800px)
   {
     .home__section
     {
@@ -1338,6 +1511,45 @@
       margin-left: 5%;
       z-index: 2;
     }
+  }
+  @media screen and (max-width: 800px)
+  {
+    .home__section
+    {
+      margin-top: 40rem;
+    }
+    .home__section__member
+    {
+      flex-direction: column;
+      height: 65rem;
+      margin-top: -8rem;
+    }
+    .home__section__member__right
+    {
+      margin-top: 30rem;
+      margin-left: 5rem;
+    }
+    .home__section__video
+    {
+      position: absolute; 
+      width: 45rem;
+      height: 30rem;
+      margin-top: -5rem;
+      margin-left: 3%;
+      z-index: 2;
+    }
+    .home__section__member button
+  {
+    background-color: white; 
+    font-size: 12px;
+     padding: 1rem;
+     padding-left: 2rem;
+     padding-right: 2rem;
+     color: #6e6c6d;
+     width: 40rem;
+     margin-left: 0;
+  }
+  
   }
   /*__________________________Home collection_______________________________________*/
   .home__collection
