@@ -1842,7 +1842,7 @@
 {
   margin-left: 45%;
 }
-  .home__blog__release
+  /* .home__blog__release
   {
     
     display: flex;
@@ -1875,20 +1875,7 @@
   {
     margin-top: -10rem;
   }
-  .home__blog__dialogue__first
-  {
-    
-    color: white;
-    background-color: #d99578;
-    padding-bottom: 0rem;
-    padding-top: 2rem;
-    margin-bottom: 5rem;
-    margin-top: 0rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    line-height: 2rem;
-    
-  }
+  
   .home__blog__dialogue__first .dialogue
   {
     font-family: "Prata";
@@ -1901,13 +1888,7 @@
     text-align: center;
     margin-left: 9rem;
   }
-  .quotation-mark
-  {
-    width: 2rem;
-    height: 2rem;
-    padding-left: 20rem;
-   
-  }
+  
 .blog__release, .blog_release__date
 {
   color:  #c1bcb9;
@@ -1926,13 +1907,94 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+ */
+ 
+.blog__grid__container
+{
+  display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+     grid-template-areas:
+     "blog1 background_txt blog3"
+     "txt1 blog2 txt3"
+     "txt1  txt2 txt3";
+     height:10rem;
+     width: 75rem;
+     grid-gap: 1rem;
+     margin-left: 10%;
+     column-gap: 7rem;
+     row-gap: 2rem;
+     
+}
+.home__blog1
+{
+  grid-area: blog1;
+  
+} 
+.home__blog__background_txt
+{
+  grid-area: background_txt ;
+ 
+  
+}
+.white
+{
+  background-color: white;
+  margin-top: -7rem;
+}
+.white2
+{
+
+}
+.home__blog3
+{
+  grid-area: blog3;
+}
+.home__blog2
+{
+  grid-area: blog2;
+ 
+  background-color: white;
+}
+.home__blog__txt1
+{
+  grid-area: txt1;
+  background-color: white;
+  margin-top: -4rem;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  margin-bottom: 8rem;
+}
+.home_blog__txt2
+{
+  grid-area: txt2;
+  background-color: white;
+
+}
+.home__blog__txt3
+{
+  grid-area: txt3;
+  margin-top: -4rem;
+  padding-top: 1rem;
+  
+}
 .home__blog__release__background
 {
   background-color: white;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
- 
- 
+.quotation-mark
+  {
+    width: 2rem;
+    height: 2rem;
+    padding-left: 20rem;
+   
+  }
+  .home__blog__dialogue__first
+  {
+    
+    color: white;
+    background-color: #d99578;
+    padding: 3rem 2rem 5rem 20%;
+   
+  }
