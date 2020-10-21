@@ -662,7 +662,7 @@
      margin-top: -1rem;
     }
    }
-   @media screen and (max-width:800px)
+   @media screen and (max-width:800px) and(min-width: 600px)
    {
     .home_museum
     {
@@ -850,7 +850,7 @@
   }
   }
 
-  @media screen and (max-width: 800px)
+  @media screen and (max-width: 800px) and (min-width: 600px)
   {
     .home_history_images 
     {
@@ -979,7 +979,7 @@
     }
    }
    
-   @media screen and (max-width: 800px)
+   @media screen and (max-width: 800px) and (min-width: 600px)
    {
     .home_exhibitions_align
     {
@@ -1309,7 +1309,7 @@
     }
   }
 
-  @media screen and (max-width: 800px)
+  @media screen and (max-width: 800px) and (min-width: 600px)
   {
     .home__events__body
     {
@@ -1486,7 +1486,7 @@
     margin-left: 5%;
     z-index: 2;
   }
-  @media screen and (max-width: 800px)
+  @media screen and (max-width: 600px) 
   {
     .home__section
     {
@@ -1512,7 +1512,7 @@
       z-index: 2;
     }
   }
-  @media screen and (max-width: 800px)
+  @media screen and (max-width: 800px) and (min-width: 600px)
   {
     .home__section
     {
