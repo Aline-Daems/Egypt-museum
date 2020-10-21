@@ -3,45 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Header</title>
 </head>
 <body>
     <div class="navbar">
         <div class="navbar__information">
             <div class="navbar__information__time">
-
+                <button class="navbar__information__time__clock"><i class="fa fa-clock-o"></i>Plan your visit Today : 9.00 <i class=" fa fa-minus"></i> 7.OO</button>
+                <button class="navbar__information__time__map"><i class="fa fa-map"></i> Get direction</button>
             </div>
             <div class="navbar__infos">
-                <div class="navbar__infos__direction">
-
-                </div>
                 <div class="navbar__infos__medias">
-
+                    <div class="test"><i class="fa fa-facebook-f"></i></div>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-youtube-play"></i>
                 </div>
                 <div class="navbar__infos__buttons">
-                    <div class="navbar__infos__buttons__search"></div>
-                    <div class="navbar__infos__buttons__language"></div>
-                    <div class="navbar__infos__buttons__tickets"></div>
+                    <button class="navbar__infos__buttons__search"><i class="fa fa-search"></i></button>
+                    <button class="navbar__infos__buttons__language">EN<i class="fa fa-chevron-down"></i></button>
+                    <button class="navbar__infos__buttons__ticket">TICKETS</button>
                 </div>
-
             </div>
         </div>
         <div class="navbar__menu">
             <div class="navbar__menu__logo">
-                <img class="navbar__menu__logo__img" src="" alt="">
+                <img class="navbar__menu__logo__img" src="assets/home/light-logo.png" alt="Logo museum">
             </div>
             <div class="navbar__menu__buttons">
-                <div class="navbar__menu__buttons__buttons1"></div>
-                <div class="navbar__menu__buttons__buttons2"></div>
-                <div class="navbar__menu__buttons__buttons3"></div>
-                <div class="navbar__menu__buttons__buttons4"></div>
-                <div class="navbar__menu__buttons__buttons5"></div>
-                <div class="navbar__menu__buttons__buttons6"></div>
-                <div class="navbar__menu__buttons__buttons7"></div>
-                <div class="navbar__menu__buttons__buttons8"></div>
-
-
+                <button class="navbar__menu__buttons__buttons"><a class="navbar__menu__buttons_link" href="index.html">Home</a></button>
+                <button class="navbar__menu__buttons__buttons"><a class="navbar__menu__buttons_link" href="Museum.html">Museum</a></button>
+                <button class="navbar__menu__buttons__buttons"><a class="navbar__menu__buttons_link" href="visit.html">Visit</a></button>
+                <button class="navbar__menu__buttons__buttons"><a class="navbar__menu__buttons_link" href="what.html">What's on</a></button>
+                <button class="navbar__menu__buttons__buttons"><a class="navbar__menu__buttons_link" href="collection.html">Collection</a></button>
+                <button class="navbar__menu__buttons__buttons"><a class="navbar__menu__buttons_link" href="pages.html">Pages</a></button>
+                <button class="navbar__menu__buttons__buttons"><i class="fa fa-shopping-cart"></i>
+                <button class="navbar__menu__buttons__buttons"><i class="fa fa-align-left"></i></button>
             </div>
+            <div class="li6" >
+                <a href="javascript:void(0);" class="icon li6" onclick="display_navbar()">
+                    <i class="fa fa-bars fa-2x"></i>
+                </a>
+              </div>
         </div>
 
 
