@@ -362,40 +362,51 @@ a {
                                                             
 
 /* MAIN CONTAINER */
-.contact__CONTAINERPIC {
 
+.contact__PAGE {
+
+  max-width: 1024px;
   display: flex;
-  font-family: 'Prata', serif;
-  margin-top: 150px;
-  justify-content: center;
-  width: 100%;
-
+  flex-direction: column;
+  margin: auto;
 }
 
 
+
+
 /* MAIN IMAGE */
+
+.contact__IMAGEBOX{
+
+  width: 100%;
+  display: flex;
+  
+}
 
 .contact__PICTURE {
 
   background-image: url("CONTACT/contact-1-1.jpg");
   background-repeat: no-repeat;
-  background-position: center;
-  width: 550px;
-  height: 350px;
-
+  background-size:100%;
+  width: 50%;
+ 
 
 }
 
 /* FORM */
 
 
+.contact__FORMCONTAINER {
+
+  width: 50%;
+  display: flex;
+}
+
 .contact__FORM {
 
   display: flex;
-  width: 600px;
+
   flex-wrap: wrap;
-  
-  
 
 }
 
@@ -410,6 +421,10 @@ label {
   width: 250px;
 }
 
+.contact__FIRST {
+
+  width: 50%;
+}
 
 
  /* FORM SUBJECT AND MESSAGE  */
@@ -420,20 +435,29 @@ label {
   margin-left: 25px;
   margin-bottom: 25px;
   height: 35px;
-  width: 250px;
+  width: 80%;
 
 }
 
+.contact__SUBJECT {
+
+  width: 100%;
+}
 
 .contact__INPUTSUBJECT {
 
-  width: 540px;
+  width: 90%
+}
+
+.contact__MESSAGE {
+
+  width: 100%;
 }
 
 .contact__INPUTMESSAGE {
 
   height: 150px;
-  width: 550px;
+  width: 93%;
 }
 
 
@@ -451,7 +475,7 @@ label {
   text-transform: uppercase;
   font-size: 0.9em;
   margin-left: 22px;
-  margin-top: 50px;
+
   display: flex;
   font-family: muli;
  
@@ -474,11 +498,11 @@ label {
 
   display:flex;
   flex-wrap: nowrap;
-  width: 650px;
+  width: 50%;
   margin-top: -100px;
   justify-content: center;
-  margin-left: 278px;
-  margin-bottom: 150px;
+  margin-left: -4%;
+  margin-bottom: 50px;
 
 }
 
@@ -487,7 +511,7 @@ label {
 .contact__ADDRESS{
 
   display: flex;
-  width: 280px;
+  width: 40%;
   flex-wrap: wrap;
   flex-direction: column;
   border-right: 1px solid rgba(0,0,0,0.1); 
@@ -510,7 +534,7 @@ label {
 .contact__ADDRESS2, .contact__ADDRESS3, .contact__ADDRESS4 {
 
   color:#878282;
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: 'muli';
 
 }
@@ -521,10 +545,11 @@ label {
 
   color: #878282;
   margin-left: 25px;
-  font-size: 0.9em;
+  font-size: 0.8em;
   display: flex;
   flex-direction: column;
   font-family: 'muli';
+  margin-top: -8%;
  
 }
 
@@ -590,13 +615,7 @@ label {
 
 }
 
-/* MAP */
 
-.contact__MAP {
-
-  display: flex;
-  justify-content: center;
-}
 
 /* VENUES */
 
@@ -608,6 +627,7 @@ label {
   flex-direction: column;
   font-family: Prata, sans-serif;
   height: 500px;
+  width: 100%;
   
 }
 
@@ -617,8 +637,8 @@ label {
 
   height: 50px;
   text-align: center;
-  margin-top: 50px;
   font-size: 2em;
+  margin: auto;
 
 }
 
@@ -627,7 +647,7 @@ label {
 .contact__LOGO {
 
   display: flex;
-  width: 50%;
+  width: 100%;
   margin: auto;
 }
 
@@ -732,12 +752,14 @@ margin: auto;
 
                                                           /* ###EVENTS### */
 
-main {
+.event__PAGE {
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
+  max-width: 1024px;
+  margin: auto;
   
 }
 
@@ -748,7 +770,7 @@ main {
 .events__MENU {
 
   height: 70px;
-  width: 66%;
+  width: 70%;
   display: flex;
   flex-wrap: nowrap;
   font-family: Muli, sans-serif;
@@ -793,7 +815,7 @@ main {
 
 .events__ALLEVENTCAT {
 
-  width: 300px;
+  width: 30%;
   height: 45px;
   display: flex;
   margin-bottom: auto;
@@ -837,7 +859,7 @@ main {
 
   display:flex;
   flex-wrap: wrap;
-  width: 76%;
+  width: 70%;
   margin: auto;
 
 }
@@ -849,10 +871,10 @@ main {
 .events__TEXTBOX {
 
   background-color: white;
-  width: 340px;
-  height: 250px;
+  width: 60%;
+  height: 60%;
   float: left;
-  margin-top: 155px;
+  margin-top: 20%;
   font-family: Prata, sans-serif;
   
 }
@@ -861,10 +883,10 @@ main {
 .events__SENTONE {
 
 
-  font-size: 1.3em;
+  font-size: 1.2em;
   color: #302e2f;
   margin-left: 20px;
-  margin-top: 40px;
+  margin-top: 20px;
 
 }
 
@@ -872,7 +894,7 @@ main {
 
 .events__SENTTWO {
   
-  font-size: 1em;
+  font-size: 0.9em;
   margin-left: 20px;
   margin-bottom: 0;
   color: #302e2f;
@@ -889,7 +911,7 @@ main {
 
 .events__SENTTHREE {
 
-  font-size: 0.9em; 
+  font-size: 0.8em; 
   font-family: Muli, sans-serif;
   color: #878282;
   width: 250px;
@@ -924,7 +946,7 @@ main {
 .events__LOC{
 
   color:#302e2f;
-  font-size: 1em;
+  font-size: 0.9em;
   margin-left: 20px;
 }
 
@@ -932,11 +954,12 @@ main {
 
   display:flex;
   margin-top: -20px;
+  height: 15%;
 
 }
 .events__STREET{
 
-  font-size: 0.9em; 
+  font-size: 0.8em; 
   font-family: Muli, sans-serif;
   color:#878282;
   
@@ -978,21 +1001,22 @@ main {
   display: flex; 
   flex-wrap: nowrap;
   justify-content: center;
-  width: 50%;
-  margin: auto;
+  width: 40%;
+
   
 }
 
 .events__FIRSTIMAGE {
 
   background-image: url("EVENT/event-4-1.jpg");
-  background-size: 550px;
+  background-size: 100%;
   background-repeat: no-repeat;
   width: 550px;
   height: 400px;
   margin-top: 100px;
 
 }
+
 
 
 
@@ -1003,14 +1027,14 @@ main {
   display: flex; 
   flex-wrap: nowrap;
   justify-content: center;
-  width: 50%;
-  margin: auto;
+  width: 40%;
+  margin-left:auto;
 }
 
 .events__SECONDIMAGE {
 
   background-image: url("EVENT/event-4-2.jpg");
-  background-size: 550px;
+  background-size: 100%;
   background-repeat: no-repeat;
   width: 550px;
   height: 400px;
@@ -1021,7 +1045,7 @@ main {
 
 .events__THIRDIMAGE {
 background-image: url("EVENT/event-4-3.jpg");
-background-size: 550px;
+background-size: 100%;
 background-repeat: no-repeat;
 width: 550px;
 height: 400px;
@@ -1035,16 +1059,16 @@ margin-top: 100px;
 .events__TEXTBOX2 {
 
   background-color: white;
-  width: 340px;
-  height: 350px;
+  width: 60%;
+  height: 70%;
   float: left;
-  margin-top: 55px;
+  margin-top: 10%;
   font-family: Prata, sans-serif;
 }
 
 .events__FOURTHIMAGE {
   background-image: url("EVENT/event-4-4.jpg");
-  background-size: 550px;
+  background-size: 100%;
   background-repeat: no-repeat;
   width: 550px;
   height: 400px;
@@ -1055,12 +1079,13 @@ margin-top: 100px;
 
 .events__TXTDETAILS {
   margin: auto;
+  font-size: 0.6em;
 
   
 }
 
 
-.events__DETAILS {
+.events__DETAILS1 {
 
   background-color: #f66c6c;
   width: 300px;
@@ -1073,13 +1098,30 @@ margin-top: 100px;
   margin-top: 30px;
   display: flex;
   margin-left: 20px;
+  visibility: hidden;
+}
+
+
+.events__DETAILS {
+
+  background-color: #f66c6c;
+  width: 165px;
+  height: 30px;
+  border: 0px solid black;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-family: Muli, sans-serif;
+  
+  display: flex;
+  margin-left: 20px;
 }
 /* FIVETH IMAGE */
 
 .events__FITHIMAGE {
 
   background-image: url("EVENT/event-4-5.jpg");
-  background-size: 550px;
+  background-size: 100%;
   background-repeat: no-repeat;
   width: 550px;
   height: 400px;
@@ -1091,7 +1133,7 @@ margin-top: 100px;
 .events__SIXTHIMAGE {
 
   background-image: url("EVENT/event-4-6.jpg");
-  background-size: 550px;
+  background-size: 100%;
   background-repeat: no-repeat;
   width: 550px;
   height: 400px;
@@ -1319,18 +1361,28 @@ SOCIAL MEDIAS */
   flex-direction: column;
 }
 
+
+  .contact__IMAGEBOX {
+
+    height: 1400px;
+    flex-direction: column;
+
+  }
   .contact__PICTURE{
 
-    background-position: left;
-    background-size: 550px;;
-    margin-left: 50px;
+   
+    background-size: 80%;
+    margin: auto;
+    
+    width: 100%;
+    height: 50%;
   
   
   }
 
   .contact__FORM {
 
-    margin-top: 500px;
+    margin-top: 2%;
     margin-left: 50px;
   }
 
@@ -1354,14 +1406,22 @@ SOCIAL MEDIAS */
   display: flex;
   flex-wrap: nowrap;
   width: 650px;
-  margin-top: -1100px;
+  margin-top: -900px;
   justify-content: center;
-  margin-left: -2px;
-  margin-bottom: 150px;
+
+  margin-bottom: 50px;
 }
+
 .contact__MAP {
 
-  margin-top: 1100px;
+  margin-top: 100%;
+  height: 500px;
+  
+}
+.contact__MAPCONTENT {
+
+  width: 100%;
+  height: 100%;
 }
 
 .contact__ARROW {
@@ -1373,6 +1433,11 @@ SOCIAL MEDIAS */
 flex-wrap: wrap;
 justify-content: center;
 width: 80%;
+}
+
+.contact__LOGO3 {
+
+  visibility: hidden;
 }
 footer {
 
@@ -1419,10 +1484,33 @@ footer {
 .events__IMAGEBOX, .events__IMAGEBOX2 {
 
   width: 45%;
+  margin-top: 20%;
 }
-.events__FIRSTIMAGE, .events__SECONDIMAGE, .events__THIRDIMAGE, .events__FOURTHIMAGE, .events__FITHIMAGE, .events__SIXTHIMAGE {
+.events__FIRSTIMAGE, 
+.events__SECONDIMAGE, 
+.events__THIRDIMAGE, 
+.events__FOURTHIMAGE, 
+.events__FITHIMAGE, 
+.events__SIXTHIMAGE {
 
   background-size: 100%;
+}
+
+.events__TEXTBOX,
+ .events__TEXTBOX2 {
+
+  margin-top:60%;
+}
+
+.events__DETAILS1 {
+
+  visibility: visible;
+}
+
+.events__BUTTONBOX {
+
+  margin-bottom: 60%;
+  margin-top: 30%;
 }
 
 }
@@ -1431,7 +1519,7 @@ footer {
 
 /* CONTACT PAGE MOBILE VERSION */
 
-@media all and (max-device-width: 480px)
+@media all and (max-device-width: 375px)
 
 {
 
@@ -1442,40 +1530,142 @@ footer {
 
 .contact__PICTURE {
 
-  background-size: 400px;
-  width: auto;
+  background-size: 100%;
+ 
 }
 
 .contact__ADDRESSHOURS {
-
-  width: 350px;
+  margin-left: -30%;
   flex-wrap: wrap;
+  margin-top: -280%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contact__ADDRESS {
+
+  width: 100%;
+}
+
+.contact__ADDRESS1, .contact__ADDRESS2, .contact__ADDRESS3, .contact__ADDRESS4  {
+
+  margin-left: 20%;
+  width: 100%;
 }
 
 .contact__HOURS {
 
-  margin-left: -80px;
+  margin-left: 18%;
+  margin-top: 2%;
 }
 
+.contact__FORMCONTAINER {
+
+  width: 100%;
+}
+
+.contact__FIRST {
+
+  width: 100%;
+}
 .contact__FORM {
 
   margin-left: 0px;
+  width: 100%;
 }
 
 .contact__INPUT, .contact__INPUTSUBJECT {
 
 
-  width: 400px;
+  width: 80%;
 }
 
 .contact__INPUTMESSAGE {
 
-  width: 410px;
+  width: 83%;
 }
 
+
+
+.contact__MAPCONTENT {
+
+  width: 100%;
+  height: 50%;
+  margin-top: 90%;
+ 
+}
+
+.contact__VENUES {
+
+  margin-top: 30%;
+}
 
 .MOBILE {
 
   display: none;
 }
+
+/* EVENT PAGE MOBILE VERSION */
+
+
+.events__MENU {
+
+  flex-direction: column;
+  height: 100%;
 }
+
+.events__ALLCAT {
+
+  width: 100%
+}
+
+.events__ALLEVENTCAT{
+
+  width: 100%
+}
+
+.events__FIND {
+
+  width: 100%;
+}
+
+.events__IMAGEBOX, 
+.events__IMAGEBOX2 {
+
+  width: 100%;
+}
+
+.events__TEXTBOX, 
+.events__TEXTBOX2{
+
+  margin-top: 65%;
+  width: 100%;
+}
+
+.events__DETAILS {
+
+  background-color: #f66c6c;
+  width: 300px;
+  height: 50px;
+  border: 0px solid black;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  font-family: Muli, sans-serif;
+  display: flex;
+  margin-left: 20px;
+
+
+}
+
+.events__BUTTONBOX {
+
+  margin-top: 40%;
+}
+
+}
+
+
+
+
